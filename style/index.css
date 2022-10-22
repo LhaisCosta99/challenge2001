@@ -14,6 +14,8 @@ header > button {
     border-radius: 20px;
     display: flex;
     cursor: pointer;
+    border: none;
+    background-color: #FFFFFF;
     justify-content: space-between;
     align-items: center;
     padding: 5px 12px;
@@ -104,5 +106,17 @@ footer > a > img {
 @media (min-width: 768px) {
     main > div {
         flex-direction: column
+    }
+}
+
+@media (width: 320px) and (height: 568px){
+    body{
+        background-color: #FFB64E;
+    }
+    .navigation{
+        border-color: #FFFFFF;
+    }
+    .navigation:hover{
+        border-color: #444242;
     }
 }
