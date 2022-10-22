@@ -116,7 +116,7 @@ footer>a>img {
     }
 }
 
-@media (min-width: 768.01px) {
+@media (min-width: 768x) {
     body {
         height: fit-content;
     }
