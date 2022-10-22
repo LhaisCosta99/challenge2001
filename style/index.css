@@ -36,14 +36,48 @@ main{
 
 main > img {
     width: 40%;
+    margin: 3%;
 }
 
 main > div {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 main > div > div{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    width: 265px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #444242;
+    border: solid 1px #FA9401;
+    color: #FFFFFF;
+    gap: 10px;
+}
+
+.navigation:hover {
+    background-color: #FA9401;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+footer > img {
+    margin: 0 10px;
+    margin-bottom: auto;
 }
