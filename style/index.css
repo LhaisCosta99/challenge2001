@@ -1,0 +1,49 @@
+body{
+    background-color: #444242;
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    padding: 20px;
+}
+header > button {
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 12px;
+    width: 121.33px;
+    height: 34px;
+}
+
+header > button > p{
+    margin: 0;
+    margin-left: 5px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+main > img {
+    width: 40%;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+}
+
+main > div > div{
+    display: flex;
+    flex-direction: column;
+}
