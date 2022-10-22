@@ -10,13 +10,16 @@ body {
 body {
     background-color: #444242;
     min-height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    height: 4%;
-    padding: 20px;
+    height: fit-content;
+    margin: 20px;
 }
 
 header>button {
@@ -114,6 +117,9 @@ footer>a>img {
 }
 
 @media (min-width: 768.01px) {
+    body {
+        height: fit-content;
+    }
     main>div {
         flex-direction: column
     }
@@ -126,7 +132,9 @@ footer>a>img {
 @media (width: 320px) and (height: 568px) {
     body {
         background-color: #FFB64E;
+        height: fit-content;
     }
+
 
     .navigation {
         border-color: #FFFFFF;
