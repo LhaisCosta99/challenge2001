@@ -36,6 +36,7 @@ header>div>img {
 main{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 main > div {
@@ -45,6 +46,7 @@ main > div {
     align-items: flex-start;
     justify-content: center;
     text-align: center;
+    width: 100%;
 }
 
 main > div > p {
@@ -52,4 +54,28 @@ main > div > p {
     align-items: center;
     height: 100%;
     margin-left: 20px;
+}
+.textos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #5B5A5A;
+    width: 90%;
+    text-align: left;
+}
+.textos > p {
+    width: 70%;
+}
+hr{
+    width: 90%;
+    border: 1px solid #E8E8E8;
+}
+
+.redes{
+    display: flex;
+    width: 80%;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    justify-content: space-around;
 }
