@@ -87,3 +87,22 @@ footer > a > img {
     margin-bottom: auto;
     cursor: pointer;
 }
+
+@media (max-width:360px) {
+    main > img {
+        width: 60%;
+        margin: 15% 0;
+    }
+}
+
+@media (min-width:640px) {
+    main > div {
+        flex-direction: row
+    }
+}
+
+@media (min-width: 768px) {
+    main > div {
+        flex-direction: column
+    }
+}
