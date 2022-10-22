@@ -33,3 +33,23 @@ header>div>img {
     margin: 5px;
     width: 40%;
 }
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main > div {
+    background-color: #F2F2F2;
+    color: #FA9401;
+    height: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+main > div > p {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 20px;
+}
