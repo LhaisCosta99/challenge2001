@@ -64,6 +64,11 @@ main > div > p {
     width: 90%;
     text-align: left;
 }
+
+.textos > img {
+    cursor: pointer;
+}
+
 .textos > p {
     width: 70%;
 }
@@ -78,4 +83,22 @@ hr{
     background-color: #FFFFFF;
     margin-top: 20px;
     justify-content: space-around;
+    margin-bottom: 55px;
+}
+
+.redes > img{
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    background-color: #FA9401;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
