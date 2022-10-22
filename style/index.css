@@ -1,16 +1,25 @@
-body{
-    background-color: #444242;
-    height: 100%;
+* {
     margin: 0;
 }
 
-header{
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #444242;
+    min-height: fit-content;
+}
+
+header {
     display: flex;
     justify-content: space-between;
-    height: 10%;
+    height: 4%;
     padding: 20px;
 }
-header > button {
+
+header>button {
     border-radius: 20px;
     display: flex;
     cursor: pointer;
@@ -23,42 +32,40 @@ header > button {
     height: 34px;
 }
 
-header > button > p{
+header>button>p {
     margin: 0;
     margin-left: 5px;
     text-align: center;
 }
 
-header > img {
+header>img {
     cursor: pointer;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 80%;
+    height: 70%;
 }
 
-main > img {
-    width: 40%;
-    margin: 3%;
+main>img {
+    width: 30%;
+    margin: 10px 0;
 }
 
-main > div {
+main>div {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
-main > div > div{
+main>div>div {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
-.navigation{
+.navigation {
     display: flex;
     justify-content: center;
     cursor: pointer;
@@ -69,54 +76,63 @@ main > div > div{
     background-color: #444242;
     border: solid 1px #FA9401;
     color: #FFFFFF;
-    gap: 10px;
+    margin:10px 0;
 }
 
 .navigation:hover {
     background-color: #FA9401;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 10%;
     width: 100%;
-    padding: 20px 0;
+    margin-top: 20px;
 }
 
-footer > a > img {
+footer>a>img {
     margin: 0 10px;
-    margin-bottom: auto;
     cursor: pointer;
 }
 
 @media (max-width:360px) {
-    main > img {
+    main>img {
         width: 60%;
         margin: 15% 0;
     }
 }
 
-@media (min-width:640px) {
-    main > div {
+@media (min-width:640px) and (max-width: 768px) {
+    main>div {
         flex-direction: row
     }
+    main{
+        justify-content: center;
+    }
 }
 
-@media (min-width: 768px) {
-    main > div {
+@media (min-width: 768.01px) {
+    main>div {
         flex-direction: column
     }
+
+    main{
+        justify-content: center;
+    }
 }
 
-@media (width: 320px) and (height: 568px){
-    body{
+@media (width: 320px) and (height: 568px) {
+    body {
         background-color: #FFB64E;
     }
-    .navigation{
+
+    .navigation {
         border-color: #FFFFFF;
     }
-    .navigation:hover{
+
+    .navigation:hover {
         border-color: #444242;
     }
 }
